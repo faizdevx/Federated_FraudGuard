@@ -1,0 +1,131 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled files
+*.pyo
+*.pyd
+
+# Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+
+# -----------------------------
+# Experiment outputs
+# -----------------------------
+results/
+experiments/
+outputs/
+runs/
+checkpoints/
+models/
+
+# -----------------------------
+# Dataset files (VERY important)
+# -----------------------------
+data/
+datasets/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Large compressed datasets
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+
+# -----------------------------
+# Model artifacts
+# -----------------------------
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# -----------------------------
+# Federated training artifacts
+# -----------------------------
+client_models/
+server_models/
+aggregation_cache/
+
+# -----------------------------
+# Privacy attack outputs
+# -----------------------------
+mia_results/
+attack_logs/
+
+# -----------------------------
+# IDE files
+# -----------------------------
+.vscode/
+.idea/
+*.iml
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Temporary files
+# -----------------------------
+*.tmp
+*.temp
+*.swp
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.*
+
+# -----------------------------
+# Coverage / testing
+# -----------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# -----------------------------
+# ML experiment tracking
+# -----------------------------
+mlruns/
+wandb/
+
+# -----------------------------
+# Local config overrides
+# -----------------------------
+local_config.py
